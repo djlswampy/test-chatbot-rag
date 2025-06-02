@@ -1,0 +1,8 @@
+__pycache__/
+*.py[cod]
+.env
+faiss_index_*/
+*.log
+*.tmp
+
+.chat-test
