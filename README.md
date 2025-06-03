@@ -28,12 +28,15 @@ source venv/bin/activate
 ```
 
 ### 2. 의존성 설치
-- pip install -r requirements.txt
-
+```bash
+pip install -r requirements.txt
+```
 
 ### 3. 환경변수 설정
 - 프로젝트 루트 디렉토리에 .env 파일을 생성하고 OpenAI API 키 설정
-- OPENAI_API_KEY=your_api_key_here
+```bash
+OPENAI_API_KEY=your_api_key_here
+```
 
 ### 4. pdf 문서 전처리
 ```bash
@@ -41,7 +44,9 @@ python rag_preprocessing.py
 ```
 
 ### 5. 서버 실행
+```bash
 uvicorn app.main:app --reload --port 8000
+```
 
 
 ## 테스트 예시 질문
